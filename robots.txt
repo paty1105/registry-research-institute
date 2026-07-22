@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://www.registryresearchinstitute.org/sitemap.xml
+Sitemap: https://registry-research-institute.netlify.app/sitemap.xml

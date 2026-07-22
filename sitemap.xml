@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.registryresearchinstitute.org/</loc>
+    <loc>https://registry-research-institute.netlify.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/about.html</loc>
+    <loc>https://registry-research-institute.netlify.app/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/library.html</loc>
+    <loc>https://registry-research-institute.netlify.app/library.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/law.html</loc>
+    <loc>https://registry-research-institute.netlify.app/law.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/science.html</loc>
+    <loc>https://registry-research-institute.netlify.app/science.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/states.html</loc>
+    <loc>https://registry-research-institute.netlify.app/states.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/international.html</loc>
+    <loc>https://registry-research-institute.netlify.app/international.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/visual-evidence.html</loc>
+    <loc>https://registry-research-institute.netlify.app/visual-evidence.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/research-charter.html</loc>
+    <loc>https://registry-research-institute.netlify.app/research-charter.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/contact.html</loc>
+    <loc>https://registry-research-institute.netlify.app/contact.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/registry-2026-vs-2003.html</loc>
+    <loc>https://registry-research-institute.netlify.app/registry-2026-vs-2003.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/technical-violations.html</loc>
+    <loc>https://registry-research-institute.netlify.app/technical-violations.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/cost.html</loc>
+    <loc>https://registry-research-institute.netlify.app/cost.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.registryresearchinstitute.org/sorna-noncompliance.html</loc>
+    <loc>https://registry-research-institute.netlify.app/sorna-noncompliance.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
