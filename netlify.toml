@@ -1,6 +1,30 @@
 [build]
   publish = "."
 
+# Security and privacy headers. The referrer policy matters here: people
+# reach this site from sensitive contexts and should not leak a full
+# referring URL onward.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+
+# Legacy paths from the pre-rename structure.
+[[redirects]]
+  from = "/pages/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+# Keep the old section names working for anyone holding a saved link.
+[[redirects]]
+  from = "/registry-research-institute"
+  to = "/"
+  status = 301
+
 [[redirects]]
   from = "/*"
   to = "/404.html"

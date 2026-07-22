@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /404.html
+Disallow: /thanks.html
 
-Sitemap: https://registry-research-institute.netlify.app/sitemap.xml
+Sitemap: https://prevention-research-institute.netlify.app/sitemap.xml

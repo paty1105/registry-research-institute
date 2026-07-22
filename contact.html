@@ -1,18 +1,108 @@
-<!doctype html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Contact | Prevention Research Institute</title>
-<meta name="description" content="Submit research, request collaboration, or contact the Prevention Research Institute. We welcome attorneys, researchers, journalists, legislators, and families." />
-<link rel="canonical" href="https://registry-research-institute.netlify.app/contact.html" />
+<meta name="description" content="Submit research, request collaboration, or contact the Prevention Research Institute. Researchers, attorneys, journalists, legislators, educators, and families welcome." />
+<link rel="canonical" href="https://prevention-research-institute.netlify.app/contact" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Contact | Prevention Research Institute" />
-<meta property="og:description" content="Submit research, request collaboration, or contact the Prevention Research Institute. We welcome attorneys, researchers, journalists, legislators, and families." />
-<meta property="og:url" content="https://registry-research-institute.netlify.app/contact.html" />
+<meta property="og:description" content="Submit research, request collaboration, or contact the Prevention Research Institute. Researchers, attorneys, journalists, legislators, educators, and families welcome." />
+<meta property="og:url" content="https://prevention-research-institute.netlify.app/contact" />
 <meta property="og:site_name" content="Prevention Research Institute" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Contact | Prevention Research Institute" />
-<meta name="twitter:description" content="Submit research, request collaboration, or contact the Prevention Research Institute. We welcome attorneys, researchers, journalists, legislators, and families." />
-<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-<link rel="stylesheet" href="styles.css">
-</head><body><header class="site-header"><div class="container nav"><a class="brand" href="index.html"><span>PRI</span> Prevention Research Institute</a><nav><a href="about.html">About</a><a href="library.html">Library</a><a href="law.html">Law</a><a href="science.html">Prevention Science</a><a href="cost.html">Policy Impact</a>
-      <a href="states.html">States</a><a href="visual-evidence.html">Visual Evidence</a><a href="research-charter.html">Charter</a><a href="contact.html" class="button small">Contact</a></nav></div></header><article class="page"><p class="eyebrow">Contact</p><h1>Submit Research or Collaborate</h1><p>Use this page for future contact form integration. Suggested audiences include attorneys, researchers, journalists, legislators, advocates, families, and people with lived experience.</p><div class="note">Netlify Forms can be added here in the next version.</div></article></body></html>
+<meta name="twitter:description" content="Submit research, request collaboration, or contact the Prevention Research Institute. Researchers, attorneys, journalists, legislators, educators, and families welcome." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span>PRI</span> Prevention Research Institute</a>
+    <nav><a href="about.html">About</a><a href="prevention.html">Prevention</a><a href="science.html">Science</a><a href="law.html">Law</a><a href="cost.html">Policy Impact</a><a href="states.html">States</a><a href="library.html">Library</a><a href="visual-evidence.html">Visual Evidence</a><a href="research-charter.html">Charter</a><a href="contact.html" class="button small">Contact</a></nav>
+  </div>
+</header>
+
+<article class="page">
+  <p class="eyebrow">Contact</p>
+  <h1>Submit research or collaborate.</h1>
+  <p class="lead">PRI is built from primary sources, and a great deal of the most useful material
+  comes from people working directly with it. If you have research, a court record, a state audit, a
+  dataset, or a correction, send it.</p>
+
+  <div class="note">
+    <strong>This is not a crisis line and not a legal service.</strong> If you need immediate help,
+    contact local emergency services. If you are seeking legal representation, PRI cannot provide it
+    or refer you to counsel.
+  </div>
+
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks">
+    <input type="hidden" name="form-name" value="contact" />
+    <p class="hp">
+      <label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+    </p>
+
+    <div class="form-grid">
+      <div class="field">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" required autocomplete="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email" />
+      </div>
+
+      <div class="field full">
+        <label for="role">What brings you here</label>
+        <select id="role" name="role" required>
+          <option value="">Choose one</option>
+          <option>Researcher or academic</option>
+          <option>Attorney or legal professional</option>
+          <option>Journalist</option>
+          <option>Legislator or legislative staff</option>
+          <option>Educator or youth-serving organization</option>
+          <option>Advocate or nonprofit</option>
+          <option>Family member</option>
+          <option>Person with lived experience</option>
+          <option>Submitting a correction</option>
+          <option>Other</option>
+        </select>
+        <span class="hint">This routes your message. It is not published anywhere.</span>
+      </div>
+
+      <div class="field full">
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" required />
+      </div>
+
+      <div class="field full">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <span class="hint">If you are submitting research, a citation or link is more useful than a summary.</span>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="button">Send message</button>
+      <p class="privacy">Submissions go to the Institute only. PRI does not publish the identity of
+      anyone who submits material without their explicit written agreement.</p>
+    </div>
+  </form>
+
+  <h2>Corrections</h2>
+  <p>PRI publishes corrections openly, as set out in the
+  <a href="research-charter.html">Research Charter</a>. If you have found an error, a misread source,
+  or a claim that outruns its citation, choose "Submitting a correction" above and quote the passage.
+  Corrections are the fastest way to improve the site and are treated as such.</p>
+</article>
+
+<footer>
+  <div class="container footergrid">
+    <p><strong>Prevention Research Institute</strong><br/>Prevention &bull; Evidence &bull; Public Safety</p>
+    <p>This site is an educational research project, not legal advice.</p>
+  </div>
+</footer>
+</body>
+</html>
